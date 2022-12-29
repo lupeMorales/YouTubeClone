@@ -11,6 +11,18 @@
 		EC6EACB6295C40B300473F1D /* DataVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB5295C40B300473F1D /* DataVideo.swift */; };
 		EC6EACB8295C481B00473F1D /* DataChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB7295C481B00473F1D /* DataChannel.swift */; };
 		EC6EACBA295C484400473F1D /* DataPlaylistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB9295C484400473F1D /* DataPlaylistItem.swift */; };
+		EC9FCB4F295DA0110004061A /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB4E295DA0110004061A /* RootPageViewController.swift */; };
+		EC9FCB51295DA0300004061A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB50295DA0300004061A /* MainViewController.swift */; };
+		EC9FCB59295DA1F00004061A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB57295DA1F00004061A /* HomeViewController.swift */; };
+		EC9FCB5A295DA1F00004061A /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9FCB58295DA1F00004061A /* HomeViewController.xib */; };
+		EC9FCB5D295DA2010004061A /* VideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB5B295DA2010004061A /* VideosViewController.swift */; };
+		EC9FCB5E295DA2010004061A /* VideosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9FCB5C295DA2010004061A /* VideosViewController.xib */; };
+		EC9FCB61295DA2140004061A /* PlaylistsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB5F295DA2140004061A /* PlaylistsViewController.swift */; };
+		EC9FCB62295DA2140004061A /* PlaylistsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9FCB60295DA2140004061A /* PlaylistsViewController.xib */; };
+		EC9FCB65295DA2270004061A /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB63295DA2270004061A /* ChannelViewController.swift */; };
+		EC9FCB66295DA2270004061A /* ChannelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9FCB64295DA2270004061A /* ChannelViewController.xib */; };
+		EC9FCB69295DA2400004061A /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB67295DA2400004061A /* AboutViewController.swift */; };
+		EC9FCB6A295DA2400004061A /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC9FCB68295DA2400004061A /* AboutViewController.xib */; };
 		ECFC22DD295B124A00761349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC22DC295B124A00761349 /* AppDelegate.swift */; };
 		ECFC22DF295B124A00761349 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC22DE295B124A00761349 /* SceneDelegate.swift */; };
 		ECFC22E1295B124A00761349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFC22E0295B124A00761349 /* ViewController.swift */; };
@@ -25,6 +37,18 @@
 		EC6EACB5295C40B300473F1D /* DataVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVideo.swift; sourceTree = "<group>"; };
 		EC6EACB7295C481B00473F1D /* DataChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataChannel.swift; sourceTree = "<group>"; };
 		EC6EACB9295C484400473F1D /* DataPlaylistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPlaylistItem.swift; sourceTree = "<group>"; };
+		EC9FCB4E295DA0110004061A /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
+		EC9FCB50295DA0300004061A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		EC9FCB57295DA1F00004061A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EC9FCB58295DA1F00004061A /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		EC9FCB5B295DA2010004061A /* VideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewController.swift; sourceTree = "<group>"; };
+		EC9FCB5C295DA2010004061A /* VideosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosViewController.xib; sourceTree = "<group>"; };
+		EC9FCB5F295DA2140004061A /* PlaylistsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsViewController.swift; sourceTree = "<group>"; };
+		EC9FCB60295DA2140004061A /* PlaylistsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlaylistsViewController.xib; sourceTree = "<group>"; };
+		EC9FCB63295DA2270004061A /* ChannelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelViewController.swift; sourceTree = "<group>"; };
+		EC9FCB64295DA2270004061A /* ChannelViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChannelViewController.xib; sourceTree = "<group>"; };
+		EC9FCB67295DA2400004061A /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		EC9FCB68295DA2400004061A /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		ECFC22D9295B124A00761349 /* YouTubeClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubeClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECFC22DC295B124A00761349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ECFC22DE295B124A00761349 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +82,73 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		EC9FCB4A295D9F570004061A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FCB56295DA1CC0004061A /* About */,
+				EC9FCB55295DA1BA0004061A /* Channel */,
+				EC9FCB54295DA1AE0004061A /* Playlists */,
+				EC9FCB53295DA1A00004061A /* Videos */,
+				EC9FCB52295DA1960004061A /* Home */,
+				EC9FCB4B295D9F650004061A /* Main */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC9FCB4B295D9F650004061A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FCB4E295DA0110004061A /* RootPageViewController.swift */,
+				EC9FCB50295DA0300004061A /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EC9FCB52295DA1960004061A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FCB57295DA1F00004061A /* HomeViewController.swift */,
+				EC9FCB58295DA1F00004061A /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC9FCB53295DA1A00004061A /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FCB5B295DA2010004061A /* VideosViewController.swift */,
+				EC9FCB5C295DA2010004061A /* VideosViewController.xib */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		EC9FCB54295DA1AE0004061A /* Playlists */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FCB5F295DA2140004061A /* PlaylistsViewController.swift */,
+				EC9FCB60295DA2140004061A /* PlaylistsViewController.xib */,
+			);
+			path = Playlists;
+			sourceTree = "<group>";
+		};
+		EC9FCB55295DA1BA0004061A /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FCB63295DA2270004061A /* ChannelViewController.swift */,
+				EC9FCB64295DA2270004061A /* ChannelViewController.xib */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		EC9FCB56295DA1CC0004061A /* About */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FCB67295DA2400004061A /* AboutViewController.swift */,
+				EC9FCB68295DA2400004061A /* AboutViewController.xib */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 		ECFC22D0295B124A00761349 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +168,7 @@
 		ECFC22DB295B124A00761349 /* YouTubeClone */ = {
 			isa = PBXGroup;
 			children = (
+				EC9FCB4A295D9F570004061A /* View */,
 				EC6EACB2295C366900473F1D /* Model */,
 				ECFC22DC295B124A00761349 /* AppDelegate.swift */,
 				ECFC22DE295B124A00761349 /* SceneDelegate.swift */,
@@ -148,9 +240,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9FCB62295DA2140004061A /* PlaylistsViewController.xib in Resources */,
 				ECFC22EC295B124B00761349 /* LaunchScreen.storyboard in Resources */,
+				EC9FCB6A295DA2400004061A /* AboutViewController.xib in Resources */,
 				ECFC22E9295B124B00761349 /* Assets.xcassets in Resources */,
+				EC9FCB5E295DA2010004061A /* VideosViewController.xib in Resources */,
 				ECFC22E4295B124A00761349 /* Main.storyboard in Resources */,
+				EC9FCB5A295DA1F00004061A /* HomeViewController.xib in Resources */,
+				EC9FCB66295DA2270004061A /* ChannelViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,11 +261,18 @@
 				EC6EACB4295C36A600473F1D /* DataPlaylist.swift in Sources */,
 				ECFC22E1295B124A00761349 /* ViewController.swift in Sources */,
 				ECFC22DD295B124A00761349 /* AppDelegate.swift in Sources */,
+				EC9FCB69295DA2400004061A /* AboutViewController.swift in Sources */,
 				ECFC22DF295B124A00761349 /* SceneDelegate.swift in Sources */,
 				EC6EACBA295C484400473F1D /* DataPlaylistItem.swift in Sources */,
+				EC9FCB61295DA2140004061A /* PlaylistsViewController.swift in Sources */,
 				ECFC22E7295B124A00761349 /* YouTubeClone.xcdatamodeld in Sources */,
+				EC9FCB5D295DA2010004061A /* VideosViewController.swift in Sources */,
+				EC9FCB4F295DA0110004061A /* RootPageViewController.swift in Sources */,
+				EC9FCB59295DA1F00004061A /* HomeViewController.swift in Sources */,
 				EC6EACB8295C481B00473F1D /* DataChannel.swift in Sources */,
 				EC6EACB6295C40B300473F1D /* DataVideo.swift in Sources */,
+				EC9FCB65295DA2270004061A /* ChannelViewController.swift in Sources */,
+				EC9FCB51295DA0300004061A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
