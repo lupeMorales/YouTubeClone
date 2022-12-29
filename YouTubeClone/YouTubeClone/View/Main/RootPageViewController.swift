@@ -7,9 +7,16 @@
 
 import UIKit
 
+protocol RootPageProtocol : AnyObject {
+    
+    func currentPage (_ index: Int)
+    
+}
 class RootPageViewController: UIPageViewController {
     
     var subViewControllers = [UIViewController]()
+    var currentIndex : Int = 0
+    weak var delegateRootPage : RootPageProtocol?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +35,10 @@ class RootPageViewController: UIPageViewController {
             AboutViewController()
         ]
         
+        
+        _ = subViewControllers.enumerated().map({$0.element.view.tag = $0.offset})
+        
+        //por default mostrará HOME q es el index 0
         setViewControllersFromIndex(index: 0, direction: .forward)
     }
     
@@ -49,19 +60,25 @@ extension RootPageViewController: UIPageViewControllerDelegate, UIPageViewContro
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         let index : Int = subViewControllers.firstIndex(of: viewController) ?? 0
         if index <= 0 {
-          return  nil
+            return  nil
         }
         return subViewControllers[index - 1]
-    
+        
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
         let index : Int = subViewControllers.firstIndex(of: viewController) ?? 0
         if index >= subViewControllers.count - 1 {
-          return  nil
+            return  nil
         }
         return subViewControllers[index + 1]
     }
     
-    
+    func pageViewController(_ pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+        print("finished: ", finished)
+        if let index = pageViewController.viewControllers?.first?.view.tag{
+            currentIndex = index
+            delegateRootPage?.currentPage(index)
+        }
+    }
 }
