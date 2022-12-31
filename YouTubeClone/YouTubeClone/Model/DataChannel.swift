@@ -9,7 +9,7 @@ import Foundation
 
 
 // MARK: - ChannelModel
-struct ChannelModel: Codable {
+struct DataChannel: Codable {
     let kind: String
     let etag: String
     let pageInfo: PageInfo

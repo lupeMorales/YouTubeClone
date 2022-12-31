@@ -16,7 +16,7 @@
 		EC6EACB4295C36A600473F1D /* DataPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB3295C36A600473F1D /* DataPlaylist.swift */; };
 		EC6EACB6295C40B300473F1D /* DataVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB5295C40B300473F1D /* DataVideo.swift */; };
 		EC6EACB8295C481B00473F1D /* DataChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB7295C481B00473F1D /* DataChannel.swift */; };
-		EC6EACBA295C484400473F1D /* DataPlaylistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB9295C484400473F1D /* DataPlaylistItem.swift */; };
+		EC6EACBA295C484400473F1D /* DataPlaylistItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB9295C484400473F1D /* DataPlaylistItems.swift */; };
 		EC9FCB4F295DA0110004061A /* RootPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB4E295DA0110004061A /* RootPageViewController.swift */; };
 		EC9FCB51295DA0300004061A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB50295DA0300004061A /* MainViewController.swift */; };
 		EC9FCB59295DA1F00004061A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9FCB57295DA1F00004061A /* HomeViewController.swift */; };
@@ -48,7 +48,7 @@
 		EC6EACB3295C36A600473F1D /* DataPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPlaylist.swift; sourceTree = "<group>"; };
 		EC6EACB5295C40B300473F1D /* DataVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVideo.swift; sourceTree = "<group>"; };
 		EC6EACB7295C481B00473F1D /* DataChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataChannel.swift; sourceTree = "<group>"; };
-		EC6EACB9295C484400473F1D /* DataPlaylistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPlaylistItem.swift; sourceTree = "<group>"; };
+		EC6EACB9295C484400473F1D /* DataPlaylistItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPlaylistItems.swift; sourceTree = "<group>"; };
 		EC9FCB4E295DA0110004061A /* RootPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootPageViewController.swift; sourceTree = "<group>"; };
 		EC9FCB50295DA0300004061A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		EC9FCB57295DA1F00004061A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -130,7 +130,7 @@
 				EC6EACB3295C36A600473F1D /* DataPlaylist.swift */,
 				EC6EACB5295C40B300473F1D /* DataVideo.swift */,
 				EC6EACB7295C481B00473F1D /* DataChannel.swift */,
-				EC6EACB9295C484400473F1D /* DataPlaylistItem.swift */,
+				EC6EACB9295C484400473F1D /* DataPlaylistItems.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -325,7 +325,7 @@
 				EC086FCB296038B8008785E3 /* HomeProvider.swift in Sources */,
 				EC9FCB69295DA2400004061A /* AboutViewController.swift in Sources */,
 				ECFC22DF295B124A00761349 /* SceneDelegate.swift in Sources */,
-				EC6EACBA295C484400473F1D /* DataPlaylistItem.swift in Sources */,
+				EC6EACBA295C484400473F1D /* DataPlaylistItems.swift in Sources */,
 				EC9FCB61295DA2140004061A /* PlaylistsViewController.swift in Sources */,
 				ECFC22E7295B124A00761349 /* YouTubeClone.xcdatamodeld in Sources */,
 				EC9FCB5D295DA2010004061A /* VideosViewController.swift in Sources */,

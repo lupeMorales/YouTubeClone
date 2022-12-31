@@ -22,13 +22,15 @@ struct RequestModel  {
         case GET
         case POST
     }
-
+    
     enum Endpoints : String   {
         case search = "/search"
         case playlist = "/playlist"
+        case channels = "/channels"
+        case playlistItem = "/playlistItems"
         case empty = ""
     }
-
+    
     enum URLBase : String{
         case youtube = "https://youtube.googleapis.com/youtube/v3"
         case google = "https://othereweb.com/v2"
