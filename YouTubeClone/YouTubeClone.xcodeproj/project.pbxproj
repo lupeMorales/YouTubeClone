@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC086FBE2960323E008785E3 /* ServiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC086FBD2960323E008785E3 /* ServiceLayer.swift */; };
+		EC086FC02960327A008785E3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC086FBF2960327A008785E3 /* NetworkError.swift */; };
+		EC086FC2296032B2008785E3 /* RequestMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC086FC1296032B2008785E3 /* RequestMode.swift */; };
+		EC086FC529603421008785E3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC086FC429603421008785E3 /* Constants.swift */; };
+		EC086FCB296038B8008785E3 /* HomeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC086FCA296038B8008785E3 /* HomeProvider.swift */; };
+		EC086FCD29603BB8008785E3 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC086FCC29603BB8008785E3 /* HomePresenter.swift */; };
 		EC6EACB4295C36A600473F1D /* DataPlaylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB3295C36A600473F1D /* DataPlaylist.swift */; };
 		EC6EACB6295C40B300473F1D /* DataVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB5295C40B300473F1D /* DataVideo.swift */; };
 		EC6EACB8295C481B00473F1D /* DataChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6EACB7295C481B00473F1D /* DataChannel.swift */; };
@@ -33,6 +39,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC086FBD2960323E008785E3 /* ServiceLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLayer.swift; sourceTree = "<group>"; };
+		EC086FBF2960327A008785E3 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		EC086FC1296032B2008785E3 /* RequestMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMode.swift; sourceTree = "<group>"; };
+		EC086FC429603421008785E3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EC086FCA296038B8008785E3 /* HomeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProvider.swift; sourceTree = "<group>"; };
+		EC086FCC29603BB8008785E3 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		EC6EACB3295C36A600473F1D /* DataPlaylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPlaylist.swift; sourceTree = "<group>"; };
 		EC6EACB5295C40B300473F1D /* DataVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataVideo.swift; sourceTree = "<group>"; };
 		EC6EACB7295C481B00473F1D /* DataChannel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataChannel.swift; sourceTree = "<group>"; };
@@ -71,6 +83,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC086FC32960340A008785E3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC086FC429603421008785E3 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EC086FC62960383E008785E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EC086FC929603893008785E3 /* NetworkingProvider */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC086FC729603858008785E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC9FCB57295DA1F00004061A /* HomeViewController.swift */,
+				EC9FCB58295DA1F00004061A /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC086FC829603860008785E3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				EC086FCC29603BB8008785E3 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		EC086FC929603893008785E3 /* NetworkingProvider */ = {
+			isa = PBXGroup;
+			children = (
+				EC086FCA296038B8008785E3 /* HomeProvider.swift */,
+			);
+			path = NetworkingProvider;
+			sourceTree = "<group>";
+		};
 		EC6EACB2295C366900473F1D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -80,19 +133,6 @@
 				EC6EACB9295C484400473F1D /* DataPlaylistItem.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		EC9FCB4A295D9F570004061A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				EC9FCB56295DA1CC0004061A /* About */,
-				EC9FCB55295DA1BA0004061A /* Channel */,
-				EC9FCB54295DA1AE0004061A /* Playlists */,
-				EC9FCB53295DA1A00004061A /* Videos */,
-				EC9FCB52295DA1960004061A /* Home */,
-				EC9FCB4B295D9F650004061A /* Main */,
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		EC9FCB4B295D9F650004061A /* Main */ = {
@@ -107,8 +147,9 @@
 		EC9FCB52295DA1960004061A /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				EC9FCB57295DA1F00004061A /* HomeViewController.swift */,
-				EC9FCB58295DA1F00004061A /* HomeViewController.xib */,
+				EC086FC829603860008785E3 /* Presenter */,
+				EC086FC729603858008785E3 /* View */,
+				EC086FC62960383E008785E3 /* Model */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -149,6 +190,16 @@
 			path = About;
 			sourceTree = "<group>";
 		};
+		EC9FCB6B295DE1CE0004061A /* ServiceLayer */ = {
+			isa = PBXGroup;
+			children = (
+				EC086FBD2960323E008785E3 /* ServiceLayer.swift */,
+				EC086FBF2960327A008785E3 /* NetworkError.swift */,
+				EC086FC1296032B2008785E3 /* RequestMode.swift */,
+			);
+			path = ServiceLayer;
+			sourceTree = "<group>";
+		};
 		ECFC22D0295B124A00761349 = {
 			isa = PBXGroup;
 			children = (
@@ -168,14 +219,21 @@
 		ECFC22DB295B124A00761349 /* YouTubeClone */ = {
 			isa = PBXGroup;
 			children = (
-				EC9FCB4A295D9F570004061A /* View */,
+				EC086FC32960340A008785E3 /* Utils */,
+				EC9FCB6B295DE1CE0004061A /* ServiceLayer */,
+				EC9FCB56295DA1CC0004061A /* About */,
+				EC9FCB55295DA1BA0004061A /* Channel */,
+				EC9FCB54295DA1AE0004061A /* Playlists */,
+				EC9FCB53295DA1A00004061A /* Videos */,
+				EC9FCB52295DA1960004061A /* Home */,
+				EC9FCB4B295D9F650004061A /* Main */,
 				EC6EACB2295C366900473F1D /* Model */,
 				ECFC22DC295B124A00761349 /* AppDelegate.swift */,
 				ECFC22DE295B124A00761349 /* SceneDelegate.swift */,
 				ECFC22E0295B124A00761349 /* ViewController.swift */,
 				ECFC22E2295B124A00761349 /* Main.storyboard */,
-				ECFC22E8295B124B00761349 /* Assets.xcassets */,
 				ECFC22EA295B124B00761349 /* LaunchScreen.storyboard */,
+				ECFC22E8295B124B00761349 /* Assets.xcassets */,
 				ECFC22ED295B124B00761349 /* Info.plist */,
 				ECFC22E5295B124A00761349 /* YouTubeClone.xcdatamodeld */,
 			);
@@ -258,9 +316,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC086FCD29603BB8008785E3 /* HomePresenter.swift in Sources */,
+				EC086FC02960327A008785E3 /* NetworkError.swift in Sources */,
+				EC086FC529603421008785E3 /* Constants.swift in Sources */,
 				EC6EACB4295C36A600473F1D /* DataPlaylist.swift in Sources */,
 				ECFC22E1295B124A00761349 /* ViewController.swift in Sources */,
 				ECFC22DD295B124A00761349 /* AppDelegate.swift in Sources */,
+				EC086FCB296038B8008785E3 /* HomeProvider.swift in Sources */,
 				EC9FCB69295DA2400004061A /* AboutViewController.swift in Sources */,
 				ECFC22DF295B124A00761349 /* SceneDelegate.swift in Sources */,
 				EC6EACBA295C484400473F1D /* DataPlaylistItem.swift in Sources */,
@@ -269,7 +331,9 @@
 				EC9FCB5D295DA2010004061A /* VideosViewController.swift in Sources */,
 				EC9FCB4F295DA0110004061A /* RootPageViewController.swift in Sources */,
 				EC9FCB59295DA1F00004061A /* HomeViewController.swift in Sources */,
+				EC086FBE2960323E008785E3 /* ServiceLayer.swift in Sources */,
 				EC6EACB8295C481B00473F1D /* DataChannel.swift in Sources */,
+				EC086FC2296032B2008785E3 /* RequestMode.swift in Sources */,
 				EC6EACB6295C40B300473F1D /* DataVideo.swift in Sources */,
 				EC9FCB65295DA2270004061A /* ChannelViewController.swift in Sources */,
 				EC9FCB51295DA0300004061A /* MainViewController.swift in Sources */,
