@@ -7,10 +7,15 @@
 
 import Foundation
 
-class HomeProvider {
+protocol HomeProviderProtocol{
     
+    func getVideos(searchString : String, channelId : String) async throws -> DataVideo
+    
+}
+class HomeProvider : HomeProviderProtocol {
+
     //método que conecta con la capa de servicio para crear la llamada a la api
-    func getVideo(searchString : String, channelId : String) async throws -> DataVideo{
+    func getVideos(searchString : String, channelId : String) async throws -> DataVideo{
         
         var queryParams : [String : String] = ["part":"snippet"]
         if !channelId.isEmpty { //enviaste channel ID?? pues agregaselo, sino no agregues nada
@@ -32,4 +37,3 @@ class HomeProvider {
        
     }
 }
-
